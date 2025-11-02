@@ -3,29 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freelancer Rashidul Islam Rakib</title>
+  <title>Services | Freelancer Rashidul Islam Rakib</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Freelancer Rashidul Islam Rakib</h1>
     <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="services.html">Services</a>
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Helping Brands Grow with Smart Digital Marketing</h2>
-    <p>Data-driven strategies to increase your visibility, engagement & sales.</p>
-    <a href="contact.html" class="btn">Get in Touch</a>
-  </section>
-
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm a passionate Digital Marketing Specialist with proven experience in Facebook Ads, YouTube SEO, and Web Analytics. My goal is to help businesses grow through creative, result-oriented campaigns.</p>
+  <section class="services">
+    <h2>My Services</h2>
+    <div class="service-box">
+      <h3>Facebook Ads Campaign</h3>
+      <p>Grow your business with highly targeted Facebook & Instagram ads.</p>
+    </div>
+    <div class="service-box">
+      <h3>YouTube SEO & Promotion</h3>
+      <p>Optimize your videos for better visibility, ranking, and engagement.</p>
+    </div>
+    <div class="service-box">
+      <h3>Server-Side Tracking (CAPI)</h3>
+      <p>Boost ROI by tracking accurate conversion data from all platforms.</p>
+    </div>
+    <div class="service-box">
+      <h3>B2B Lead Generation</h3>
+      <p>Find and connect with the right clients for your business growth.</p>
+    </div>
   </section>
 
   <footer>
